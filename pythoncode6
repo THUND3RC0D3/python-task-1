@@ -1,0 +1,42 @@
+# 1
+names = ['matthew', 'mark', 'luke', 'john']
+print(names[1])
+
+# 2
+sports = ['basketball', 'tennis', 'football']
+sports[1] = 'soccer'
+print(sports)
+
+# 3
+numbers1 = [24, 48, 64, 128, 256, 512, 1024, 2048]
+del numbers1[4]
+print(numbers1)
+
+# 4
+numbers2 = [24, 48, 64, 128, 256, 512, 1024, 2048]
+numbers3 = [2048, 1024, 512, 256, 128, 64, 48, 24]
+mergeNumbers = numbers2 + numbers3
+print(mergeNumbers)
+
+# 5
+numbers4 = [2048, 1024, 512, 256, 128, 64, 48, 24]
+print(len(numbers4))
+print(min(numbers4))
+print(max(numbers4))
+
+# 6
+students = {'s1':4096, 's2':2048, 's3':1024, 's4':512, 's5':256, 's6':128, 's7':64, 's8':48, 's9':24}
+print(f" Student Score: {students['s4']}")
+
+# 7, 8
+people = {'jessie':20, 'jesselyn':18, 'joseph':16, 'josephine':14}
+print(people.keys())
+print(people.values())
+print(people)
+del people['josephine']
+print(people)
+
+# 9,10
+
+movies = 'Kung-Fu Panda', 'Kung-Fu Panda 2', 'Kung-Fu Panda 3'
+print(movies[0:3])
