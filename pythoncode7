@@ -1,0 +1,7 @@
+# Tuples
+
+tup = ('alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf', 'hotel')
+tup2 = (24, 64)
+tup3 = tup + tup2
+print(tup[7])
+print(tup3)
